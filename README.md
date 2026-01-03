@@ -11,6 +11,7 @@ It can be installed with the following command:
 ```
 
 ## Running the Program
+Run the following command in the IDE terminal.
 ```
 uv run python parser/video_parser.py
 ```
@@ -36,3 +37,4 @@ The following constants may be adjusted for various purposes.
 |`VID_LENGTH`|The number of frames your camera is opened for. |200|
 |`VID_DIR`|Path to the directory storing videos recorded by `video_parser.py` |C:\Data\SprinterData\TrainingVideos|
 |`DATASET_DIR`|Path to the directory storing datasets pickled by `video_parser.py`|C:\Data\SprinterData\Datasets|
+
